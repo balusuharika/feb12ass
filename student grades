@@ -1,0 +1,35 @@
+sn0=int(input('enter sn0:'))
+sname=input("enter name:")
+s1=int(input('c programming marks:'))
+s2=int(input('java:'))
+s3=int(input('python:'))
+s4=int(input('operating system:'))
+s5=int(input('data structures:'))
+s6=int(input('data base management system:'))
+total=s1+s2+s3
+avg=total/3
+if avg>=90:
+    print('O grade')
+elif avg>=80:
+    print('A grade')
+elif avg>=70:
+    print('B grade')
+elif avg>=60:
+    print('C grade')
+elif avg>=50:
+    print('D grade')
+elif avg>=40:
+    print('pass')
+else:
+    print('fail')
+
+output:
+enter sn0:6
+enter name:harika
+c programming marks:90
+java:78
+python:98
+operating system:76
+data structures:96
+data base management system:80
+A grade
